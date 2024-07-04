@@ -1,4 +1,4 @@
-package day3;
+package day3;  	
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ public class Prac04 {
 		
 		String input = sc.next();
 	
-		while(input != "0") {
+		while(!input.equals("0")) {
 				System.out.println(input + "입력했습니다.");
 				System.out.println("0 을 입력하면 종료");
 				System.out.println("input menu");
